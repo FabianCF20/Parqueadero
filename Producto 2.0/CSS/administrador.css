@@ -1,0 +1,109 @@
+
+.InfoGeneral{
+    display: flex;
+    justify-content:space-between ;
+    border-bottom: 2px solid #ffffff;
+}
+button{
+    height: 20px;
+    background-color: #61af9c;
+}
+h2{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.Usable{
+    display: flex;
+    justify-content: space-evenly;  
+    padding-top: 50px;
+}
+img{
+    width: 150px;
+    align-items: center;
+}
+.Parqueo{
+    width: 20%;
+    justify-content:space-between ;   
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    align-items: center;
+}
+.ControlIngreso{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.BDD{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover; 
+    border-radius: 10px;
+}
+.Chat{
+    width: 20%;
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+body{
+    background-color: #1a1c6d;
+}
+.Espacio{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 767px) {
+
+    .InfoGeneral{
+        display: flex;
+        justify-content:space-between ;
+        border-bottom: 2px solid #ffffff;
+    }
+    .Usable{
+        display: block;
+    }
+    .BDD{
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .Parqueo{
+        width: 100%;
+        justify-content:space-between ;   
+        background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .Chat{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+        background-size: cover;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .Espacio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+        background-size: cover;
+        border-radius: 10px;
+    }
+  }

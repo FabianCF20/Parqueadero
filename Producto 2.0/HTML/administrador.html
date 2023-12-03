@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Fotos/logo.ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/administrador.css">
+    <title>Administrador</title>
+</head>
+<body>
+    <header class="InfoGeneral">
+        <div class="FotoU">
+            <img src="/Fotos/usuario copia.png" alt="#">
+        </div>
+        <div class="Identidad">
+            <H2>Nombre de usaurio</H2>
+            <h2 id="nombreAdministrador">Identificacion de usuario</h2>
+        </div>
+        <button class="Cerrar">Cerrar</button>
+    </header>
+    <main class="Usable">
+        <section class="Parqueo">
+            <img src="/Fotos/p.jpg">
+            <div class="ControlIngreso">
+            <button onclick="toggleOpciones1()">Ingreso de Vehiuclos</button>
+            <ul id="opciones1" class="opciones">
+                <form action="factura.html" method="get">
+                    <label for="nombreCliente">Nombre del Cliente:</label>
+                    <input type="text" id="nombreCliente" name="nombreCliente"><br><br>
+                    <label for="placaVehiculo">Placa del Vehículo:</label>
+                    <input type="text" id="placaVehiculo" name="placaVehiculo"><br><br>
+                    <input type="submit" value="Generar Factura">
+                </form>
+            </ul>
+            <button onclick="toggleOpciones2()">Salida de Vehiuclos</button>
+            <ul id="opciones2" class="opciones">
+                <li>Liquidar</li>
+                <li>Enviar factura</li>
+                <li>Imprimir factura</li>
+            </ul>
+            </div>
+        </section>
+        <section class="Chat">
+            <img src="/Fotos/vector-chat-icon-png_302635 copia.PNG" alt="#">
+            <div class="Mensajeria">
+            </div>
+        </section>
+        <section class="Espacio">
+            <img src="/Fotos/Sitio web comercial de app tecnología llamativo azul oscuro y morado.png" alt="#">
+            <button onclick="toggleOpciones3()">Espacio total</button>
+            <ul id="opciones3" class="opciones">
+                <li>#Total</li>
+            </ul>
+            <button onclick="toggleOpciones4()">Espacio disponible</button>
+            <ul id="opciones4" class="opciones">
+                <li>#disponible</li>
+            </ul>
+        </section>
+        <section class="BDD">
+            <img src="/Fotos/6.png" >
+            <a href="/HTML/BDD.html">            
+                <img src="/Fotos/5.png" >
+            </a>
+        </section>
+    </main>
+    <script src="/JS/administrador.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.InfoGeneral{
+    display: flex;
+    justify-content:space-between ;
+    border-bottom: 2px solid #ffffff;
+}
+button{
+    height: 20px;
+    background-color: #61af9c;
+}
+h2{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.Usable{
+    display: flex;
+    justify-content: space-evenly;  
+    padding-top: 50px;
+}
+body{
+    background-color: #1a1c6d;
+}
+.chat{
+    justify-content:space-between ; 
+    flex-direction: column;
+}
+
+img{
+    width: 150px;
+}
+
+.Parqueo{
+    justify-content:space-between ;   
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover;
+}
+
+.FacturaCliente {
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #1a1c6d;
+}
+.Chat{
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.Espacio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-image: url(/Fotos/Fondo\ de\ los\ usables.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
